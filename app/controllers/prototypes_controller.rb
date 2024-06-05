@@ -26,7 +26,6 @@ class PrototypesController < ApplicationController
     @comments = @prototype.comments
   end
 
-
   def edit
   end
 

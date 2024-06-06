@@ -1,5 +1,4 @@
 <main class="main">
-
   <div class="inner">
     <%# ログインしているときは以下を表示する %>
       <% if user_signed_in? %>
@@ -13,6 +12,5 @@
       <%# 投稿機能実装後、部分テンプレートでプロトタイプ投稿一覧を表示する %>
        <%= render partial:'prototype', collection: @prototypes %>
     </div>
-     
   </div>
 </main>
